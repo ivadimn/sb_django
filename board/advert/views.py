@@ -11,3 +11,17 @@ def advert1(request, *args, **kwargs):
     return render(request, "advert/advert1.html", {})
 
 
+def advert2(request, *args, **kwargs):
+    return render(request, "advert/advert2.html", {})
+
+
+def advert3(request, *args, **kwargs):
+    return render(request, "advert/advert3.html", {})
+
+
+def advert4(request, *args, **kwargs):
+    return render(request, "advert/advert4.html", {})
+
+
+def advert5(request, *args, **kwargs):
+    return render(request, "advert/advert5.html", {})
